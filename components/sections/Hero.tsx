@@ -72,7 +72,7 @@ export default function HeroProfessional() {
                     className="lg:col-span-7 flex flex-col justify-center items-start pt-10"
                 >
                     {/* Badge de Autoridade */}
-                    // @ts-ignore
+                    {/* // @ts-ignore */}
                     <motion.div custom={0} variants={fadeUp} className="mb-6">
                         <div className="inline-flex i'tems-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-white/5 backdrop-blur-md shadow-[0_0_20px_-5px_rgba(89,0,118,0.3)]">
                             <span className="flex h-2 w-2 relative">
@@ -86,19 +86,19 @@ export default function HeroProfessional() {
                     </motion.div>
 
                     {/* Título Editorial */}
-                    // @ts-ignore
+                    {/* // @ts-ignore */}
                     <motion.h1 custom={1} variants={fadeUp} className="text-5xl md:text-7xl lg:text-[5.5rem] leading-[0.95] font-light text-white tracking-tight mb-8">
                         A Ciência do <br /> <span className="font-serif italic bg-gradient-to-r from-[#e0aaff] via-[#c77dff] to-white bg-clip-text text-transparent pb-2 pr-2"> Movimento Humano </span>
                     </motion.h1>
 
                     {/* Descrição Refinada */}
-                    // @ts-ignore
+                    {/* // @ts-ignore */}
                     <motion.p custom={2} variants={fadeUp} className="text-lg text-slate-400 font-light leading-relaxed max-w-xl mb-10 border-l-2 border-white/10 pl-6">
                         Reabilitação de alta performance com tecnologia avançada e cuidado clínico para recuperar seu movimento e sua qualidade de vida.
                     </motion.p>
 
                     {/* Área de Ação (Botões) */}
-                    // @ts-ignore
+                    {/* // @ts-ignore */}
                     <motion.div custom={3} variants={fadeUp} className="flex flex-wrap items-center gap-5">
                         <a href="https://wa.me/5519999496085?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o!"><button className="group relative px-8 py-4 bg-white text-[#020617] rounded-full font-semibold text-sm tracking-wide overflow-hidden transition-all hover:shadow-[0_0_40px_-10px_rgba(255,255,255,0.3)]">
                             <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/40 to-transparent translate-x-[-100%] group-hover:animate-[shimmer_1.5s_infinite]" />
@@ -111,7 +111,7 @@ export default function HeroProfessional() {
                     </motion.div>
 
                     {/* Social Proof / Stats Minimalistas */}
-                    // @ts-ignore
+                    {/* // @ts-ignore */}
                     <motion.div custom={4} variants={fadeUp} className="mt-16 flex items-center gap-8 text-slate-500 text-sm font-medium">
                         <div className="flex items-center gap-2">
                             <Activity className="w-5 h-5 text-[#9d4edd]" />
