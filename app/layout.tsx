@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 import SmoothScroll from "../components/scroll/SmoothScroll";
 import "./globals.css";
+import Preloader from "@/components/Preloader";
 
-const manrope = Manrope({ 
+const manrope = Manrope({
   subsets: ["latin"],
   variable: "--font-manrope",
-  weight: ["200", "300", "400", "500", "700"] 
+  weight: ["200", "300", "400", "500", "700"]
 });
 
 export const metadata: Metadata = {
@@ -23,7 +24,9 @@ export default function RootLayout({
     <html lang="en" className={manrope.variable}>
       <body className="antialiased bg-clinical-50">
         <SmoothScroll>
+          <Preloader />
           {children}
+
         </SmoothScroll>
       </body>
     </html>
