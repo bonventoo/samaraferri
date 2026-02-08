@@ -89,7 +89,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3 text-slate-400 text-sm">
                 <Mail size={18} className="text-purple-500 shrink-0" />
-                <span>contato@samaraferri.com.br</span>
+                <span>samarabonventofisio@gmail.com</span>
               </li>
             </ul>
           </div>
