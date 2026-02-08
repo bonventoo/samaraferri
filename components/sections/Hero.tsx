@@ -63,7 +63,7 @@ export default function HeroProfessional() {
             </motion.div>
 
             <div className="relative z-10 max-w-7xl mx-auto px-6 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center h-full">
-                // @ts-ignore
+
                 {/* --- COLUNA ESQUERDA: CONTEÚDO --- */}
                 <motion.div
                     style={{ y: textY, opacity: opacityFade }}
