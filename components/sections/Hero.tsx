@@ -142,7 +142,7 @@ export default function HeroProfessional() {
                         <div className="absolute inset-0 bg-gradient-to-t from-[#590076]/40 via-transparent to-transparent blur-3xl opacity-60 transform translate-y-10" />
 
                         <Image
-                            src="/samarafoto4.webp"
+                            src="/samarafoto8.webp"
                             alt="Dra. Samara Bonvento"
                             width={1000}
                             height={1200}
