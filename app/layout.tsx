@@ -11,7 +11,7 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title: "Samara Bonvento | Fisioterapia",
-  description: "Advanced orthopedic rehabilitation and biomechanics.",
+  description: "Fisioterapia",
 };
 
 export default function RootLayout({

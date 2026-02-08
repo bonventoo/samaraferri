@@ -25,7 +25,7 @@ export default function Footer() {
               <span className="font-serif italic text-purple-300">recalibrar?</span>
             </h2>
             <p className="text-slate-400 text-lg font-light max-w-md">
-              Não aceite a dor como parte da sua rotina. Agende sua avaliação biomecânica hoje mesmo.
+              Não aceite a dor como parte da sua rotina. Agende sua avaliação fisioterapêutica hoje mesmo.
             </p>
           </motion.div>
 

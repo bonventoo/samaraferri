@@ -94,7 +94,7 @@ export default function HeroProfessional() {
                     {/* Descrição Refinada */}
                     {/* // @ts-ignore */}
                     <motion.p custom={2} variants={fadeUp} className="text-lg text-slate-400 font-light leading-relaxed max-w-xl mb-10 border-l-2 border-white/10 pl-6">
-                        Reabilitação de alta performance com tecnologia avançada e cuidado clínico para recuperar seu movimento e sua qualidade de vida.
+                        Reabilitação de alta performance com fisioterapia e cuidado clínico para recuperar seu movimento e sua qualidade de vida.
                     </motion.p>
 
                     {/* Área de Ação (Botões) */}

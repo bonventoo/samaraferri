@@ -6,12 +6,12 @@ import { useRef } from 'react';
 const steps = [
   { 
     title: "Diagnóstico de Precisão", 
-    text: "Mapeamos a causa raiz através de uma análise diferencial biomecânica, identificando padrões de compensação invisíveis a olhos não treinados.",
+    text: "Mapeamos a causa raiz através de uma análise diferencial fisioterapêutica, identificando padrões de compensação invisíveis a olhos não treinados.",
     tag: "Fase 01"
   },
   { 
-    title: "Intervenção Biomecânica", 
-    text: "Terapia manual avançada e modalidades direcionadas para restaurar a integridade dos tecidos e a mobilidade articular imediata.",
+    title: "Intervenção fisioterapêutica", 
+    text: "Terapia manual e modalidades direcionadas para restaurar a integridade dos tecidos e a mobilidade articular imediata.",
     tag: "Fase 02"
   },
   { 

@@ -28,12 +28,12 @@ const services = [
   {
     title: 'Prevenção de Lesões',
     description:
-      'Análise biomecânica para corrigir padrões de movimento antes que se tornem dor.',
+      'Análise fisioterapêutica para corrigir padrões de movimento antes que se tornem dor.',
     icon: <ShieldCheck className="w-6 h-6" />,
     tag: 'Longevidade',
   },
   {
-    title: 'Terapia Manual Avançada',
+    title: 'Terapia Manual',
     description:
       'Técnicas manuais de precisão para liberação miofascial e restauração da mobilidade.',
     icon: <Target className="w-6 h-6" />,
@@ -82,7 +82,7 @@ export default function Servicos() {
             viewport={{ once: true }}
             className="text-slate-400 max-w-sm text-sm leading-relaxed border-l border-white/10 pl-6"
           >
-            Abordagem integrada que une tecnologia de ponta e técnicas manuais
+            Abordagem integrada que une fisioterapia e técnicas manuais
             para resultados consistentes e duradouros.
           </motion.p>
         </div>

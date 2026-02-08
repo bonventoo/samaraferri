@@ -42,7 +42,7 @@ export default function AboutBrief() {
               Filosofia Clínica
             </span>
             <h3 className="text-white/40 text-sm font-light leading-relaxed max-w-[200px]">
-              Equilibrando a biomecânica com a performance humana de elite.
+              Equilibrando a fisioterapia com a performance humana de elite.
             </h3>
           </div>
 
