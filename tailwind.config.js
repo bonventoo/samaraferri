@@ -1,13 +1,21 @@
-theme: {
-  extend: {
-    fontFamily: {
-      serif: ['Playfair Display', 'serif'], // Ou 'Cormorant Garamond'
-      sans: ['Inter', 'sans-serif'], // Ou 'Manrope' para um look mais técnico
-    },
-    keyframes: {
-      shimmer: {
-        '100%': { transform: 'translateX(100%)' },
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}"
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        serif: ['Playfair Display', 'serif'],
+        sans: ['Inter', 'sans-serif']
       },
-    },
+      keyframes: {
+        shimmer: {
+          '100%': { transform: 'translateX(100%)' }
+        }
+      }
+    }
   },
+  plugins: []
 }
